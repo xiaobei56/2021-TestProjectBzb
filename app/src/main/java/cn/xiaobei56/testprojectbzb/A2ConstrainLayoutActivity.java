@@ -8,6 +8,11 @@ package cn.xiaobei56.testprojectbzb;
  * Description:
  */
 public class A2ConstrainLayoutActivity extends BActivity {
+    @Override
+    protected void initView() {
+
+    }
+
     //    暂时：对超长TextView 挤占问题不好处理。同一行 多个TextView 建议使用LinearLayout
     @Override
     protected int getLayoutId() {

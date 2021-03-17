@@ -1,4 +1,4 @@
-package cn.xiaobei56.testprojectbzb;
+package cn.xiaobei56.testprojectbzb.a5;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -14,6 +14,10 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import cn.xiaobei56.testprojectbzb.BuildConfig;
+import cn.xiaobei56.testprojectbzb.R;
+import cn.xiaobei56.testprojectbzb.utils.Utils;
 
 /**
  * Project Name: app.carmodel
@@ -193,7 +197,7 @@ public class FlowView extends ViewGroup {
         void onItemClicked(MyTextView view);
     }
 
-     static class MyTextView extends androidx.appcompat.widget.AppCompatTextView {
+    public static class MyTextView extends androidx.appcompat.widget.AppCompatTextView {
 
         public MyTextView(@NonNull Context context) {
             super(context);

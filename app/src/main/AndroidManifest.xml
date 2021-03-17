@@ -16,8 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".A1RvInRvActivity"/>
-        <activity android:name=".A3ImageViewTypeActivity"/>
+        <activity android:name=".A1RvInRvActivity" />
+        <activity android:name=".A3ImageViewTypeActivity" />
+        <activity android:name=".A4AutoEllipsizeTextView" />
+        <activity android:name=".A5FlowViewActivity" />
     </application>
 
 </manifest>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/teal_200"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <cn.xiaobei56.testprojectbzb.a4.AutoEllipsizeTextView
+            android:id="@+id/invoice_tv_car_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="4dp"
+
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="2020款35 TF动感020款35 TF动感020款35 TF动感020款35 TF动感型" />
+
+        <TextView
+            android:id="@+id/invoice_new"
+            android:layout_width="29dp"
+            android:layout_height="14dp"
+            android:layout_toEndOf="@id/invoice_tv_car_name"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/invoice_shape_ff4b3b_round_4"
+            android:layout_gravity="top"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:text="NEW"
+            tools:visibility="visible" />
+    </RelativeLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/test"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <cn.xiaobei56.testprojectbzb.a4.AutoEllipsizeTextView
+            android:id="@+id/aeTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:maxLines="1"
+            android:text="你"
+            android:visibility="gone"
+            android:textSize="15sp"
+            app:layout_constraintLeft_toRightOf="@id/iv"
+            app:layout_constraintRight_toLeftOf="@id/btn_1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_normal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:ellipsize="end"
+            android:lines="1"
+            android:text="你"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="@id/iv"
+            app:layout_constraintLeft_toRightOf="@id/iv"
+            app:layout_constraintRight_toLeftOf="@id/btn_1" />
+
+        <Button
+            android:id="@+id/btn_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="占用"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/abc_vector_test"
+        android:ellipsize="end"
+        android:lines="2"
+        android:text="aaaaaaaaaaaaaaaaaaa"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/aeTv" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onActionClick"
+        android:text="添加文字"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/btn_delete"
+        app:layout_constraintTop_toBottomOf="@id/tv_result" />
+
+    <Button
+        android:id="@+id/btn_add_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onActionClick"
+        android:text="添加字符"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/btn_delete"
+        app:layout_constraintTop_toBottomOf="@id/tv_result" />
+
+    <Button
+        android:id="@+id/btn_add_blank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onActionClick"
+        android:text="添加空格"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/btn_delete"
+        app:layout_constraintTop_toBottomOf="@id/tv_result" />
+
+    <Button
+        android:id="@+id/btn_add_extra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onActionClick"
+        android:text="添加特殊符号"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/btn_delete"
+        app:layout_constraintTop_toBottomOf="@id/tv_result" />
+
+    <Button
+        android:id="@+id/btn_expand_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onActionClick"
+        android:text="增宽10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/btn_delete"
+        app:layout_constraintTop_toBottomOf="@id/tv_result" />
+
+
+    <Button
+        android:id="@+id/btn_reduce_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onActionClick"
+        android:text="减少5dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/btn_delete"
+        app:layout_constraintTop_toBottomOf="@id/tv_result" />
+
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onActionClick"
+        android:text="减少文字"
+        app:layout_constraintBottom_toBottomOf="@id/btn_add"
+        app:layout_constraintLeft_toRightOf="@id/btn_add"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/btn_add" />
+
+    <Button
+        android:id="@+id/btn_get_ellipsize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onActionClick"
+        android:text="获取省略文字的内容"
+        app:layout_constraintBottom_toBottomOf="@id/btn_add"
+        app:layout_constraintLeft_toRightOf="@id/btn_delete"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/btn_add" />
+
+    <Button
+        android:id="@+id/btn_get_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onActionClick"
+        android:text="获取设置的文字内容"
+        app:layout_constraintBottom_toBottomOf="@id/btn_add"
+        app:layout_constraintLeft_toRightOf="@id/btn_delete"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/btn_add" />
+
+</LinearLayout>

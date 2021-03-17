@@ -1,4 +1,4 @@
-package cn.xiaobei56.testprojectbzb;
+package cn.xiaobei56.testprojectbzb.utils;
 
 import android.content.res.Resources;
 import android.util.TypedValue;

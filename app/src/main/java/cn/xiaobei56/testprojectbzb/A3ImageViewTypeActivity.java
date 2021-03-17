@@ -10,6 +10,11 @@ package cn.xiaobei56.testprojectbzb;
 public class A3ImageViewTypeActivity extends BActivity{
 
     @Override
+    protected void initView() {
+
+    }
+
+    @Override
     protected int getLayoutId() {
         return R.layout.a3_activity;
     }
