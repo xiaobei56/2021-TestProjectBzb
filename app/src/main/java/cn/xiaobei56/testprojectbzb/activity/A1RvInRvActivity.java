@@ -1,4 +1,4 @@
-package cn.xiaobei56.testprojectbzb;
+package cn.xiaobei56.testprojectbzb.activity;
 
 import android.app.Activity;
 import android.content.Context;
@@ -16,6 +16,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import cn.xiaobei56.testprojectbzb.R;
 
 /**
  * Project Name: TestProjectBzb

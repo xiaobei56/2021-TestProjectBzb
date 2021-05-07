@@ -8,12 +8,18 @@
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">40sp</item>
     </style>
-     <style name="common_text_normal">
+
+    <style name="common_text_normal">
         <item name="android:layout_margin">10dp</item>
         <item name="android:background">#22ff66aa</item>
         <item name="android:padding">10dp</item>
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="A6StatusBar_style" parent="Theme.AppCompat.NoActionBar">
+
+
     </style>
 
 </resources>

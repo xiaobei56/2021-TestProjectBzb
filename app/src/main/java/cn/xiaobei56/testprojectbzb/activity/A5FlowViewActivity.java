@@ -1,8 +1,8 @@
-package cn.xiaobei56.testprojectbzb;
+package cn.xiaobei56.testprojectbzb.activity;
 
-import android.widget.TextView;
 import android.widget.Toast;
 
+import cn.xiaobei56.testprojectbzb.R;
 import cn.xiaobei56.testprojectbzb.a5.FlowView;
 import cn.xiaobei56.testprojectbzb.a5.FlowView.MyTextView;
 
@@ -26,7 +26,10 @@ public class A5FlowViewActivity extends BActivity {
             }
         });
     }
+    @Override
+    protected void initData() {
 
+    }
     @Override
     protected int getLayoutId() {
         return R.layout.a5_activity;

@@ -1,4 +1,4 @@
-package cn.xiaobei56.testprojectbzb;
+package cn.xiaobei56.testprojectbzb.activity;
 
 import android.os.Bundle;
 
@@ -18,7 +18,10 @@ public abstract class BActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(getLayoutId());
         initView();
+        initData();
     }
+
+    protected abstract void initData();
 
     protected abstract void initView();
 

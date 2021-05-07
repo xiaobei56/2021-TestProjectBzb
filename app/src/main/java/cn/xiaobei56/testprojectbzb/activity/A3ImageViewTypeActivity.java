@@ -1,4 +1,6 @@
-package cn.xiaobei56.testprojectbzb;
+package cn.xiaobei56.testprojectbzb.activity;
+
+import cn.xiaobei56.testprojectbzb.R;
 
 /**
  * Project Name: TestProjectBzb
@@ -7,13 +9,16 @@ package cn.xiaobei56.testprojectbzb;
  * Date: 2021/2/24
  * Description:
  */
-public class A3ImageViewTypeActivity extends BActivity{
+public class A3ImageViewTypeActivity extends BActivity {
 
     @Override
     protected void initView() {
 
     }
+    @Override
+    protected void initData() {
 
+    }
     @Override
     protected int getLayoutId() {
         return R.layout.a3_activity;

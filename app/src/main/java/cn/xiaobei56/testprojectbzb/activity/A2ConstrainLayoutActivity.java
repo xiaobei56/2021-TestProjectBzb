@@ -1,4 +1,6 @@
-package cn.xiaobei56.testprojectbzb;
+package cn.xiaobei56.testprojectbzb.activity;
+
+import cn.xiaobei56.testprojectbzb.R;
 
 /**
  * Project Name: TestProjectBzb
@@ -10,6 +12,11 @@ package cn.xiaobei56.testprojectbzb;
 public class A2ConstrainLayoutActivity extends BActivity {
     @Override
     protected void initView() {
+
+    }
+
+    @Override
+    protected void initData() {
 
     }
 

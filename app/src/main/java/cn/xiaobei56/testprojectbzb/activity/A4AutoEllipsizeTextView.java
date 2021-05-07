@@ -1,10 +1,11 @@
-package cn.xiaobei56.testprojectbzb;
+package cn.xiaobei56.testprojectbzb.activity;
 
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import cn.xiaobei56.testprojectbzb.R;
 import cn.xiaobei56.testprojectbzb.a4.AutoEllipsizeTextView;
 
 /**
@@ -24,7 +25,10 @@ public class A4AutoEllipsizeTextView extends BActivity {
         mNormalTv = findViewById(R.id.tv_normal);
         mNormalTv.setLayoutParams(mTv.getLayoutParams());
     }
+    @Override
+    protected void initData() {
 
+    }
     @Override
     protected int getLayoutId() {
         return R.layout.a4_activity;

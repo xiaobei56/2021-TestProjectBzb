@@ -42,11 +42,27 @@
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
             <Button
+                android:id="@+id/btn_4_v2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onActionClick"
+                android:text="4 V2_AutoEllipsizeTextView"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <Button
                 android:id="@+id/btn_5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="onActionClick"
                 android:text="FlowView"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <Button
+                android:id="@+id/btn_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onActionClick"
+                android:text="Status Bar"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
         </LinearLayout>

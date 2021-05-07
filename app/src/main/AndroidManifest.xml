@@ -16,10 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".A1RvInRvActivity" />
-        <activity android:name=".A3ImageViewTypeActivity" />
-        <activity android:name=".A4AutoEllipsizeTextView" />
-        <activity android:name=".A5FlowViewActivity" />
+        <activity android:name=".activity.A1RvInRvActivity" />
+        <activity android:name=".activity.A3ImageViewTypeActivity" />
+        <activity android:name=".activity.A4AutoEllipsizeTextView" />
+        <activity android:name=".activity.A4V2"/>
+        <activity android:name=".activity.A5FlowViewActivity" />
+        <activity android:name=".activity.A6StatusBarActivity"
+            android:theme="@style/A6StatusBar_style"/>
     </application>
 
 </manifest>

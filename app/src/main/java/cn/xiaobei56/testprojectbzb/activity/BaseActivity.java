@@ -1,8 +1,10 @@
-package cn.xiaobei56.testprojectbzb;
+package cn.xiaobei56.testprojectbzb.activity;
 
 import android.view.MotionEvent;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import cn.xiaobei56.testprojectbzb.utils.DoubleClickUtil;
 
 /**
  * Project Name: TestProjectBzb
