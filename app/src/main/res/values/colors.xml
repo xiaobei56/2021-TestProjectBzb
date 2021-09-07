@@ -9,4 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="invoice_c_646464">#646464</color>
     <color name="invoice_c_F8F8F8">#F8F8F8</color>
+
+    <color name="personcenter_c_3377ff">#3377ff</color>
+    <color name="personcenter_c_222222">#222222</color>
 </resources>

@@ -16,7 +16,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-
+            <Button
+                android:id="@+id/btn_pop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onActionClick"
+                android:text="i'm master"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
             <Button
                 android:id="@+id/btn_1"
                 android:layout_width="wrap_content"
@@ -63,6 +69,13 @@
                 android:layout_height="wrap_content"
                 android:onClick="onActionClick"
                 android:text="Status Bar"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+ <Button
+                android:id="@+id/btn_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onActionClick"
+                android:text="跳转应用市场"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
         </LinearLayout>
