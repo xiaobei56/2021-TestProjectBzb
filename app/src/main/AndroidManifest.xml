@@ -19,12 +19,13 @@
         <activity android:name=".activity.A1RvInRvActivity" />
         <activity android:name=".activity.A3ImageViewTypeActivity" />
         <activity android:name=".activity.A4AutoEllipsizeTextView" />
-        <activity android:name=".activity.A4V2"/>
+        <activity android:name=".activity.A4V2" />
         <activity android:name=".activity.A5FlowViewActivity" />
-        <activity android:name=".activity.A6StatusBarActivity"
-            android:theme="@style/A6StatusBar_style"/>
-        <activity android:name=".a7.A7GoAppMarket"/>
-        <activity android:name=".a8.A8Activity"/>
+        <activity
+            android:name=".activity.A6StatusBarActivity"
+            android:theme="@style/A6StatusBar_style" />
+        <activity android:name=".a7.A7GoAppMarket" />
+        <activity android:name=".a8.A8Activity" />
     </application>
 
 </manifest>
